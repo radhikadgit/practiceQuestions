@@ -2,6 +2,8 @@ package java_questions;
 
 public class MethodsDemo {
 
+	//from main 
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Calling a instant method with class object
