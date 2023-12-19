@@ -5,6 +5,10 @@ public class StringObject {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		/*
+		 * this is bug_fix_1
+		 */
+		
 		String str = "String literals";
 		String strObj = new String("String object");
         System.out.println(str.length());
