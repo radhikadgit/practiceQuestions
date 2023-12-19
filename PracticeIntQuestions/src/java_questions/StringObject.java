@@ -7,6 +7,7 @@ public class StringObject {
 		
 		/*
 		 * this is bug_fix_1
+		 * bug_fix_3 also done here
 		 */
 		
 		String str = "String literals";
