@@ -9,6 +9,8 @@ public class ArrayList {
 		
 		ArrayList arlist = new ArrayList();
 		// creating an object for arraylist class
+		
+		// this is bug_fix_2
 
 		
        
