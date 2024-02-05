@@ -8,30 +8,32 @@ public class ReverseStr {
 		// TODO Auto-generated method stub
 		
 		ReverseStr str = new ReverseStr();
-		str.givenStringReverse("I Love java");
+		str.givenStringReverse("java selenium");
+		str.givenStringReverse("testing");
 		String s;   // if it's not initilized it gives "java.lang.Error" exception in thread
-		String s1 = " ";  // gives 0
-		String s2 = ""; // if give space, gives 1
+		String s1 = "";  // gives 0
+		String s2 = " "; // if give space, gives 1
 	    int len = s1.length();
-		System.out.println(len);
-	//	isAlphabet();
-	//	isAlphabet();
+		System.out.println("s1 length " +len);
+		System.out.println("s2 length " + s2.length());
+		isAlphabet();
+		isAlphabet();
+		str.asciiValue('a');
 		char a = 'Z';
 		int values = a;
 		System.out.println("1. ASCII values of '"+a+"' is "+values);
 		str.asciiValue('c');
-		str.factorialNum(3);
-		str.factorialNum(5);
+		factorialNum(4);
+		factorialNum(7);
 	}	
 	
     public String givenStringReverse(String text) {		
-		String reverse = "";
-		for(int i = text.length()-1; i>=0; i--) {
-			
-			reverse = reverse + text.charAt(i);			
-		}
-		System.out.println(reverse);
-		return reverse;		
+		
+    	for(int i=text.length()-1; i>=0; i--) {
+    		System.out.print(text.charAt(i));
+    	}
+    	System.out.println(" ");
+    	return text;
 	}
     
     public static void isAlphabet() {
@@ -45,16 +47,17 @@ public class ReverseStr {
     }
     
     private void asciiValue(char c) {
-    	int i= c;
-    	System.out.println("Ascii Value of alphabet: "+c+" "+i);
+    	int i= c;                                                            //int fact = 1; fact = fact * i
+    	System.out.println("Ascii Value of alphabet: "+c+" "+i); 
     }
     
-    public void factorialNum(int num) {
+    public static int factorialNum(int num) {
     	int fact = 1;
     	for(int i=1; i<=num; i++) {
     		fact = fact * i;
     	}
     	System.out.println(fact);
+    	return num;
     }	
 
 }

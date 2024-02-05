@@ -16,8 +16,15 @@ public class StringObject {
         System.out.println(strObj.length());
         System.out.println(strObj.charAt(5));
         
+        //string replace
+       String str_1 = str.replace( str, "ja");
+       System.out.println("String replace : "+ str_1);
+        
+        // substring() method
+        System.out.println("subString is: " + str.substring(6));
+        
         for(int i=0; i<strObj.length(); i++) {
-        	System.out.println(strObj.charAt(i));
+        	System.out.print(strObj.charAt(i));
         }
         String[] strValue = strObj.split(" ");
         System.out.println(strValue[0]);
@@ -36,6 +43,7 @@ public class StringObject {
         	System.out.print(str.charAt(i));
         }
         
+     //   System.out.println(str.replace( str,"java"));
 	}
 
 }

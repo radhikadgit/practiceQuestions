@@ -14,6 +14,7 @@ public class Reverse_String {
 		System.out.println("Practice java Questions");		
 		String str = "I Love Java and Selenium Webdriver";		
 		String str_1 = "apple";
+		String string1 = "string buffer";
 		String reverse = new StringBuffer(str).reverse().toString();
 		System.out.println(reverse);	
 		 
@@ -30,10 +31,13 @@ public class Reverse_String {
 		    StringBuffer buffer = new StringBuffer(str);
 		    System.out.println(buffer.reverse());   
 		    
+		    StringBuffer strBuff = new StringBuffer(string1);
+		    System.out.println(strBuff.reverse());
+		    
 		    String reverse_1 = new StringBuffer(str_1).reverse().toString();
 		    System.out.println(reverse_1);
 		    
-		    String s = " ";
+		    String s = "";
 		    s.length();
 		    System.out.println(s+"h");
 
